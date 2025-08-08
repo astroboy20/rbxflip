@@ -1,0 +1,14 @@
+.spinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  border: 3px solid rgba(255,255,255,0.15);
+  border-top-color: rgb(59 130 246); /* Tailwind blue-500 */
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
